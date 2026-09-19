@@ -1,5 +1,7 @@
 # Sift
 
+> **Be seen. Be heard.**
+
 **Sift** is an AI-powered solution designed to help users discover, process, and act on relevant information more efficiently. It focuses on reducing information overload by transforming raw inputs into meaningful, structured, and actionable insights.
 
 ## Problem
@@ -80,8 +82,6 @@ GEMINI_API_KEY=your_api_key_here
 npm run dev
 ```
 
-The application should now be available locally.
-
 ## Project Structure
 
 ```text
@@ -110,10 +110,14 @@ sift/
 
 Sift aims to make information **less overwhelming and more useful** by helping users quickly separate meaningful insights from noise.
 
+## Motto
+
+### **Be seen. Be heard.**
+
 ## Contributors
 
 Built as part of a hackathon project.
 
 ---
 
-**Sift — Find what matters.**
+**Sift — Be seen. Be heard.**
