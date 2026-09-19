@@ -1,123 +1,16 @@
-# Sift
+# React + Vite
 
-> **Be seen. Be heard.**
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-**Sift** is an AI-powered solution designed to help users discover, process, and act on relevant information more efficiently. It focuses on reducing information overload by transforming raw inputs into meaningful, structured, and actionable insights.
+Currently, two official plugins are available:
 
-## Problem
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Modern users are constantly exposed to large amounts of information, making it difficult to identify what is relevant, understand it quickly, and take appropriate action.
+## React Compiler
 
-Sift addresses this problem by using AI-driven processing to filter and organize information, helping users focus on what actually matters.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Key Features
+## Expanding the Oxlint configuration
 
-- AI-powered information processing
-- Intelligent filtering and prioritization
-- Structured and easy-to-understand insights
-- User-friendly interface
-- Faster information discovery
-- Action-oriented results
-
-## Tech Stack
-
-- **Frontend:** React.js
-- **Backend:** Node.js / Express.js
-- **AI:** Gemini API
-- **APIs:** REST APIs
-- **Version Control:** Git & GitHub
-
-## Architecture
-
-```text
-User
-  │
-  ▼
-React Frontend
-  │
-  ▼
-Node.js / Express Backend
-  │
-  ▼
-AI Processing Layer
-  │
-  ▼
-Gemini API
-  │
-  ▼
-Processed & Structured Insights
-  │
-  ▼
-User Interface
-```
-
-## Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone <repository-url>
-cd sift
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure environment variables
-
-Create a `.env` file:
-
-```env
-GEMINI_API_KEY=your_api_key_here
-```
-
-> Never commit your API keys or `.env` file to GitHub.
-
-### 4. Run the application
-
-```bash
-npm run dev
-```
-
-## Project Structure
-
-```text
-sift/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── utils/
-├── public/
-├── .env.example
-├── package.json
-└── README.md
-```
-
-## Future Scope
-
-- Personalized recommendations
-- Advanced context-aware analysis
-- Multi-source information processing
-- Improved AI reasoning and summarization
-- Analytics and user insights
-- Scalable cloud deployment
-
-## Vision
-
-Sift aims to make information **less overwhelming and more useful** by helping users quickly separate meaningful insights from noise.
-
-## Motto
-
-### **Be seen. Be heard.**
-
-## Contributors
-
-Built as part of a hackathon project.
-
----
-
-**Sift — Be seen. Be heard.**
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
